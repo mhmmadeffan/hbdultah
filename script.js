@@ -155,7 +155,7 @@ new TypeIt("#teks1", {
 new TypeIt("#teks2", {
   strings: ["Haii Arini!!", "Happy Birthday ya..", " ", "Ciie udah umur, ga terasa ya arini udh otw tua hehe, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
   startDelay: 1900,
-  speed: 75,
+  speed: 70,
   waitUntilVisible: true
 }).go();
 
