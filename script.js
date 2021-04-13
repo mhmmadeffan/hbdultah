@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Aug 23, 2020 00:00:00').getTime(),
+let countDown = new Date('Aug 20, 2021 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -146,7 +146,7 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Muhammad Effan pada hari ini 20 Agustus 2020 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 21</b>", " ", "Kepada Arini Izzatan Nur , semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- mhmmadeffan :)"],
+  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Muhammad Effan pada hari ini 20 Agustus 2021 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 21</b>", " ", "Kepada Arini Izzatan Nur , semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- mhmmadeffan :)"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
